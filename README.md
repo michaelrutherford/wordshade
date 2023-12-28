@@ -1,2 +1,5 @@
 # Wordshade
-Wordshade is a user-friendly blackout poetry maker, enabling users to input text, generate blackout poetry, and save their poetic creations to a text file.
+Wordshade is a user-friendly, minimalist blackout poetry maker.
+
+## License
+Wordshade is licensed under version 3 of the GPL. For more information, see `LICENSE`.
