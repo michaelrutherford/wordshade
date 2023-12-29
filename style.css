@@ -50,7 +50,7 @@ input[type="text"]:hover,
 #paragraph-input {
     font-family: sans-serif;
     resize: none;
-    margin: 1vw 1vw;
+    margin: 1vh 1vw;
     width: 40vw;
 }
 
