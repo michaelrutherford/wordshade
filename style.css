@@ -2,7 +2,8 @@
 #nonhighlight {
     background-color: white;
     color: black;
-    padding: 2px;
+    padding: 3px;
+    margin-bottom: 1vh;    
     display: inline-block;
 }
 
