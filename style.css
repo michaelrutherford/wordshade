@@ -30,10 +30,15 @@
     margin-bottom: 1vw;
 }
 
+textarea:focus, 
+select:focus,
 #paragraph-input {
-    font-family: sans-serif;
     font-size: 16px;
     min-height: 16px;
+}
+
+#paragraph-input {
+    font-family: sans-serif;
     resize: none;
     margin: 1vw 1vw;
 }
