@@ -32,9 +32,9 @@
 
 textarea:focus, 
 select:focus,
+input[type="text"]:hover,
 #paragraph-input {
     font-size: 16px;
-    min-height: 16px;
 }
 
 #paragraph-input {
