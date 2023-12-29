@@ -1,0 +1,55 @@
+#highlight, 
+#nonhighlight {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    display: inline-block;
+}
+
+#highlight {
+    background-color: black;
+}
+
+#title, 
+#instructions, 
+#paragraph-container, 
+#poetry-container, 
+#button-container {
+    text-align: center;
+}
+
+#title {
+    font-family: sans-serif;
+}
+
+#instructions {
+    color: grey;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 1vw;
+}
+
+#paragraph-input {
+    font-family: sans-serif;
+    font-size: medium;
+    resize: none;
+}
+
+#generate-button, 
+#save-button {
+    font-size: large;
+}
+
+#highlighted-paragraph {
+    height: fit-content;
+    margin: 1vw 30vw;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+footer {
+    font-size: smaller;
+    text-align: center;
+}

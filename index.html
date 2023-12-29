@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Wordshade</title>
+</head>
+<body>
+  <h1 id="title">Wordshade</h1>
+  <h2 id="instructions">Input or paste a paragraph of text and press "Create" to generate blackout poetry.</h2>
+
+
+  <div id="paragraph-container">
+    <textarea id="paragraph-input" name="paragraph" cols="50" rows="10" placeholder="Enter text"></textarea>
+  </div>
+
+  <div id="button-container">
+    <button id="generate-button" onclick="generatePoetry()">Create</button>
+    <button id="save-button" onclick="saveAsTXT()">Save</button>
+  </div>
+  
+  <div id="poetry-container">
+    <p id="highlighted-paragraph"></p>
+  </div>
+
+  <script src="highlight.js"></script>
+  <footer>© 2023 Michael Rutherford</footer>
+</body>
+</html>
