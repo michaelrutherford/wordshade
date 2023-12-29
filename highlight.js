@@ -24,7 +24,7 @@ function highlightWords(text, probability) {
 
 function generatePoetry() {
     const inputText = document.getElementById('paragraph-input').value;
-    const probability = 0.9; // Determines the chance of a word being highlighted
+    const probability = 0.8; // Determines the chance of a word being highlighted
     const highlightedText = highlightWords(inputText, probability);
     const highlightedParagraph = document.getElementById('highlighted-paragraph');
 
@@ -32,7 +32,7 @@ function generatePoetry() {
     highlightedParagraph.style.padding = '1vw'; // Adds padding to paragraph for formatting
 }
 
-function saveAsTXT() {
+function saveAsTxt() {
     const container = document.getElementById('highlighted-paragraph');
 
     // Extract non-highlighted words and join them into a space-separated string
