@@ -13,8 +13,17 @@
 #title, 
 #instructions, 
 #paragraph-container, 
-#poetry-container, 
+#poetry-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #button-container {
+    justify-content: center;
     text-align: center;
 }
 
@@ -41,6 +50,7 @@ input[type="text"]:hover,
     font-family: sans-serif;
     resize: none;
     margin: 1vw 1vw;
+    width: 30vw;
 }
 
 #generate-button, 
@@ -54,6 +64,7 @@ input[type="text"]:hover,
     padding: 0;
     font-family: sans-serif;
     background-color: black;
+    width: 30vw;
 }
 
 footer {
