@@ -61,10 +61,10 @@ input[type="text"]:hover,
 #highlighted-paragraph {
     height: fit-content;
     margin-bottom: 1vw;
+    width: 30vw;
     padding: 0;
     font-family: sans-serif;
     background-color: black;
-    width: 30vw;
 }
 
 footer {
