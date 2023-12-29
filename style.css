@@ -70,4 +70,5 @@ input[type="text"]:hover,
 footer {
     font-size: smaller;
     text-align: center;
+    margin-top: 1vw;
 }
