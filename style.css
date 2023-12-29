@@ -33,6 +33,7 @@
 #paragraph-input {
     font-family: sans-serif;
     font-size: 16px;
+    min-height: 16px;
     resize: none;
     margin: 1vw 1vw;
 }
