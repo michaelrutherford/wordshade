@@ -41,6 +41,7 @@ input[type="text"]:hover,
     font-family: sans-serif;
     resize: none;
     margin: 1vw 1vw;
+    touch-action: manipulation;
 }
 
 #generate-button, 
